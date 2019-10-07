@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/fullpage.min.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Full Page Animation</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/fullpage.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Full Page Animation</title>
-</head>
-
-<body>
-
-    <div class="" id="fullpage">
-        <section class="section s1">
-            <h1>Home Decoration</h1>
-        </section>
-        <section class="section s2">
-            <h1>Different Styles</h1>
-            <div class="description">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit tempora inventore ratione saepe hic,
-                    at maiores. Non, vero aliquam.</p>
-            </div>
-            <!-- <img src="./assets/img/chair1.png" alt="chair" class="chair"> -->
-        </section>
-        <section class="section s3">
-            <h1>Contact</h1>
-            <!-- <div class="contact-form">
+	<body>
+		<div class="" id="fullpage">
+			<section class="section s1">
+				<h1>Home Decoration</h1>
+			</section>
+			<section class="section s2">
+				<div class="overlay"></div>
+				<div class="content">
+					<h1>Different Styles</h1>
+					<div class="description">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+							tempora inventore ratione saepe hic, at maiores. Non, vero
+							aliquam.
+						</p>
+					</div>
+				</div>
+				<!-- <img src="./assets/img/chair1.png" alt="chair" class="chair"> -->
+			</section>
+			<section class="section s3">
+				<h1>Contact</h1>
+				<!-- <div class="contact-form">
                 <form action="">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name">
                 
                 </form>
             </div> -->
-        </section>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
-        integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
-        integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
-    <script src="./assets/js/fullpage.min.js"></script>
-    <script src="./assets/js/app.js"></script>
-</body>
-
+			</section>
+		</div>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+			integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+			integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+			crossorigin="anonymous"
+		></script>
+		<script src="./assets/js/fullpage.min.js"></script>
+		<script src="./assets/js/app.js"></script>
+	</body>
 </html>
